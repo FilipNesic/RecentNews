@@ -3,7 +3,7 @@
 
 Recent News app collect articles from a large pool of sources, and incorporate different types of reporting, so instead of getting stories just from one source or a local news station, you'll get a good mix of various topics of sports, politics or health news.
 
-                    - Read your favourite articles 📰
-                    - You can track live scores and watch match highlights ⚽️
-                    - Play one of the most addictive games “True-False quiz” 🎲
-                    - Search and save weather information about your favourite cities🌦
+- Read your favourite articles 📰
+- You can track live scores and watch match highlights ⚽️
+- Play one of the most addictive games “True-False quiz” 🎲
+- Search and save weather information about your favourite cities🌦
