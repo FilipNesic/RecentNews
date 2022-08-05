@@ -7,7 +7,7 @@ Recent News app collect articles from a large pool of sources, and incorporate d
 - Watch online news 📺
 - You can track live scores and watch match highlights ⚽️
 - Play one of the most addictive games “True-False Quiz” 🎲
-- Search and save or delete weather information about your favourite cities 🌦
+- Search, save or remove saved weather information about your favourite cities 🌦
 
 # Getting started
 
