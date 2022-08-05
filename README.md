@@ -6,4 +6,15 @@ Recent News app collect articles from a large pool of sources, and incorporate d
 - Read your favourite articles 📰
 - You can track live scores and watch match highlights ⚽️
 - Play one of the most addictive games “True-False Quiz” 🎲
-- Search and save weather information about your favourite cities🌦
+- Search and save or delete weather information about your favourite cities🌦
+
+## Getting started
+
+Clone this repository.
+Via the CLI, go to the root folder of the project where Podfile is located and run pod install.
+Open the workspace file and you are ready to go.
+
+## Languages and Tools :
+
+- 
+
