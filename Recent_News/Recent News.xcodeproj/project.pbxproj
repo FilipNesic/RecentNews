@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB34EDE05AEF460D6DE2F848 /* Pods_Recent_News.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB41B5C434E78036EBB4AE7 /* Pods_Recent_News.framework */; };
+		DC0ACFD8282665B400E8A826 /* LiveScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ACFD7282665B400E8A826 /* LiveScoreViewController.swift */; };
+		DC0ACFDA2826665500E8A826 /* LiveScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0ACFD92826665500E8A826 /* LiveScoreCell.swift */; };
+		DC1EF36028257DDE00816AE7 /* SportNewsCollectionViewCellHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EF35F28257DDE00816AE7 /* SportNewsCollectionViewCellHorizontal.swift */; };
+		DC1EF36228258D7600816AE7 /* SportNewsCollectionViewHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EF36128258D7600816AE7 /* SportNewsCollectionViewHorizontal.swift */; };
+		DC2305342826B45C00E9445E /* VideoGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2305332826B45C00E9445E /* VideoGalleryViewController.swift */; };
+		DC2305362826D73700E9445E /* SportNewsCollectionViewCellVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2305352826D73700E9445E /* SportNewsCollectionViewCellVertical.swift */; };
+		DC2305382826DEE400E9445E /* SportNewsCollectionViewVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2305372826DEE400E9445E /* SportNewsCollectionViewVertical.swift */; };
+		DC2BE952280993A600BEE0BE /* WorldNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BE951280993A600BEE0BE /* WorldNewsTableViewCell.swift */; };
+		DC497BFE280713A100132139 /* SecondScreenTechNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC497BFD280713A000132139 /* SecondScreenTechNewsVC.swift */; };
+		DC718367281E6F9400C5CB15 /* WorldNewsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC718366281E6F9400C5CB15 /* WorldNewsTableView.swift */; };
+		DC80DC56284CF5C2005BC794 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80DC55284CF5C2005BC794 /* ForecastTableViewCell.swift */; };
+		DC80DC87284E881A005BC794 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC80DC85284E881A005BC794 /* CoreDataModel.xcdatamodeld */; };
+		DC80DC89284E88BF005BC794 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80DC88284E88BF005BC794 /* PersistenceService.swift */; };
+		DC80DC8C284EA3DB005BC794 /* ForecastData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80DC8A284EA3DB005BC794 /* ForecastData+CoreDataProperties.swift */; };
+		DC80DC8D284EA3DB005BC794 /* ForecastData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC80DC8B284EA3DB005BC794 /* ForecastData+CoreDataClass.swift */; };
+		DC824E4E285CF59700959F19 /* GameRulesAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC824E4D285CF59700959F19 /* GameRulesAlertViewController.swift */; };
+		DC824E50285DD29600959F19 /* GameRulesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC824E4F285DD29600959F19 /* GameRulesService.swift */; };
+		DC824E52285DD37C00959F19 /* GameAlertStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC824E51285DD37C00959F19 /* GameAlertStoryboard.storyboard */; };
+		DC8F584B2823CEAE009FB06C /* BusinessNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F584A2823CEAE009FB06C /* BusinessNewsViewController.swift */; };
+		DC8F584D2823CECB009FB06C /* HealthNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F584C2823CECB009FB06C /* HealthNewsViewController.swift */; };
+		DC8F584F282435D5009FB06C /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F584E282435D5009FB06C /* ShadowButton.swift */; };
+		DC8F585128251792009FB06C /* SportNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F585028251792009FB06C /* SportNewsTableViewCell.swift */; };
+		DC8F58532825208E009FB06C /* SportNewsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F58522825208E009FB06C /* SportNewsTableView.swift */; };
+		DC9666F02846D35F008839E0 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9666EF2846D35E008839E0 /* ArticleDetailsViewController.swift */; };
+		DCABF73F2844DCB000BB8436 /* LiveNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCABF73E2844DCB000BB8436 /* LiveNewsViewController.swift */; };
+		DCAD10372845A9F7006CD0D1 /* LiveNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD10362845A9F7006CD0D1 /* LiveNewsCollectionViewCell.swift */; };
+		DCAD103928462415006CD0D1 /* LiveNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAD103828462415006CD0D1 /* LiveNews.swift */; };
+		DCC71ADF2805997F0001BCA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71ADE2805997F0001BCA1 /* AppDelegate.swift */; };
+		DCC71AE12805997F0001BCA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71AE02805997F0001BCA1 /* SceneDelegate.swift */; };
+		DCC71AE32805997F0001BCA1 /* TechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71AE22805997F0001BCA1 /* TechViewController.swift */; };
+		DCC71AE62805997F0001BCA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC71AE42805997F0001BCA1 /* Main.storyboard */; };
+		DCC71AE8280599810001BCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC71AE7280599810001BCA1 /* Assets.xcassets */; };
+		DCC71AEB280599810001BCA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC71AE9280599810001BCA1 /* LaunchScreen.storyboard */; };
+		DCC71AF62805A0910001BCA1 /* TechNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71AF52805A0910001BCA1 /* TechNews.swift */; };
+		DCC71AF82805A0AD0001BCA1 /* WorldNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71AF72805A0AD0001BCA1 /* WorldNews.swift */; };
+		DCC71AFA2805A0CB0001BCA1 /* Entertainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71AF92805A0CB0001BCA1 /* Entertainment.swift */; };
+		DCC71AFC2805A0FC0001BCA1 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71AFB2805A0FC0001BCA1 /* Forecast.swift */; };
+		DCC71AFE2805A13E0001BCA1 /* WorldNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71AFD2805A13E0001BCA1 /* WorldNewsViewController.swift */; };
+		DCC71B002805A1550001BCA1 /* EntertainmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71AFF2805A1550001BCA1 /* EntertainmentViewController.swift */; };
+		DCC71B022805A16F0001BCA1 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71B012805A16F0001BCA1 /* ForecastViewController.swift */; };
+		DCC71B042805A2E60001BCA1 /* TechNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC71B032805A2E60001BCA1 /* TechNewsTableViewCell.swift */; };
+		DCCF80552827DBBB000B39B7 /* VideoGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF80542827DBBB000B39B7 /* VideoGallery.swift */; };
+		DCCF8057282855CC000B39B7 /* HealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF8056282855CC000B39B7 /* HealthTableViewCell.swift */; };
+		DCCF805928285E08000B39B7 /* HealthNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF805828285E08000B39B7 /* HealthNews.swift */; };
+		DCCF805F282972CD000B39B7 /* BusinessCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF805E282972CD000B39B7 /* BusinessCollectionViewCell.swift */; };
+		DCCF806128297322000B39B7 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF806028297322000B39B7 /* BusinessTableViewCell.swift */; };
+		DCCF8063282ADFD1000B39B7 /* BusinessNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCF8062282ADFD1000B39B7 /* BusinessNews.swift */; };
+		DCE38F13280D61C1006599F4 /* SportNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE38F12280D61C0006599F4 /* SportNewsViewController.swift */; };
+		DCE38F19280D69F1006599F4 /* WorldNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE38F18280D69F1006599F4 /* WorldNewsCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		284060FBEF2B2C152FE13157 /* Pods-Recent News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recent News.release.xcconfig"; path = "Target Support Files/Pods-Recent News/Pods-Recent News.release.xcconfig"; sourceTree = "<group>"; };
+		74A95459D1C1C5EC9DEEEE4B /* Pods-Recent News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recent News.debug.xcconfig"; path = "Target Support Files/Pods-Recent News/Pods-Recent News.debug.xcconfig"; sourceTree = "<group>"; };
+		7FB41B5C434E78036EBB4AE7 /* Pods_Recent_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recent_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0ACFD7282665B400E8A826 /* LiveScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreViewController.swift; sourceTree = "<group>"; };
+		DC0ACFD92826665500E8A826 /* LiveScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreCell.swift; sourceTree = "<group>"; };
+		DC1EF35F28257DDE00816AE7 /* SportNewsCollectionViewCellHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNewsCollectionViewCellHorizontal.swift; sourceTree = "<group>"; };
+		DC1EF36128258D7600816AE7 /* SportNewsCollectionViewHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNewsCollectionViewHorizontal.swift; sourceTree = "<group>"; };
+		DC2305332826B45C00E9445E /* VideoGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGalleryViewController.swift; sourceTree = "<group>"; };
+		DC2305352826D73700E9445E /* SportNewsCollectionViewCellVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNewsCollectionViewCellVertical.swift; sourceTree = "<group>"; };
+		DC2305372826DEE400E9445E /* SportNewsCollectionViewVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNewsCollectionViewVertical.swift; sourceTree = "<group>"; };
+		DC2BE951280993A600BEE0BE /* WorldNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldNewsTableViewCell.swift; sourceTree = "<group>"; };
+		DC497BFD280713A000132139 /* SecondScreenTechNewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenTechNewsVC.swift; sourceTree = "<group>"; };
+		DC718366281E6F9400C5CB15 /* WorldNewsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldNewsTableView.swift; sourceTree = "<group>"; };
+		DC80DC55284CF5C2005BC794 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
+		DC80DC86284E881A005BC794 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		DC80DC88284E88BF005BC794 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		DC80DC8A284EA3DB005BC794 /* ForecastData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ForecastData+CoreDataProperties.swift"; path = "/Users/filip/Desktop/RecentNews/Recent News/Model/ForecastData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		DC80DC8B284EA3DB005BC794 /* ForecastData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ForecastData+CoreDataClass.swift"; path = "/Users/filip/Desktop/RecentNews/Recent News/Model/ForecastData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		DC824E4D285CF59700959F19 /* GameRulesAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRulesAlertViewController.swift; sourceTree = "<group>"; };
+		DC824E4F285DD29600959F19 /* GameRulesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRulesService.swift; sourceTree = "<group>"; };
+		DC824E51285DD37C00959F19 /* GameAlertStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GameAlertStoryboard.storyboard; sourceTree = "<group>"; };
+		DC8F584A2823CEAE009FB06C /* BusinessNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessNewsViewController.swift; sourceTree = "<group>"; };
+		DC8F584C2823CECB009FB06C /* HealthNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthNewsViewController.swift; sourceTree = "<group>"; };
+		DC8F584E282435D5009FB06C /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
+		DC8F585028251792009FB06C /* SportNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNewsTableViewCell.swift; sourceTree = "<group>"; };
+		DC8F58522825208E009FB06C /* SportNewsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNewsTableView.swift; sourceTree = "<group>"; };
+		DC9666EF2846D35E008839E0 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
+		DCABF73E2844DCB000BB8436 /* LiveNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveNewsViewController.swift; sourceTree = "<group>"; };
+		DCAD10362845A9F7006CD0D1 /* LiveNewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveNewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCAD103828462415006CD0D1 /* LiveNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveNews.swift; sourceTree = "<group>"; };
+		DCC71ADB2805997F0001BCA1 /* Recent News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recent News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC71ADE2805997F0001BCA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCC71AE02805997F0001BCA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCC71AE22805997F0001BCA1 /* TechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechViewController.swift; sourceTree = "<group>"; };
+		DCC71AE52805997F0001BCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC71AE7280599810001BCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC71AEA280599810001BCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC71AEC280599810001BCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC71AF52805A0910001BCA1 /* TechNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechNews.swift; sourceTree = "<group>"; };
+		DCC71AF72805A0AD0001BCA1 /* WorldNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldNews.swift; sourceTree = "<group>"; };
+		DCC71AF92805A0CB0001BCA1 /* Entertainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entertainment.swift; sourceTree = "<group>"; };
+		DCC71AFB2805A0FC0001BCA1 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		DCC71AFD2805A13E0001BCA1 /* WorldNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldNewsViewController.swift; sourceTree = "<group>"; };
+		DCC71AFF2805A1550001BCA1 /* EntertainmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentViewController.swift; sourceTree = "<group>"; };
+		DCC71B012805A16F0001BCA1 /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		DCC71B032805A2E60001BCA1 /* TechNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechNewsTableViewCell.swift; sourceTree = "<group>"; };
+		DCCF80542827DBBB000B39B7 /* VideoGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGallery.swift; sourceTree = "<group>"; };
+		DCCF8056282855CC000B39B7 /* HealthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTableViewCell.swift; sourceTree = "<group>"; };
+		DCCF805828285E08000B39B7 /* HealthNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthNews.swift; sourceTree = "<group>"; };
+		DCCF805E282972CD000B39B7 /* BusinessCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCCF806028297322000B39B7 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
+		DCCF8062282ADFD1000B39B7 /* BusinessNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessNews.swift; sourceTree = "<group>"; };
+		DCE38F12280D61C0006599F4 /* SportNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportNewsViewController.swift; sourceTree = "<group>"; };
+		DCE38F18280D69F1006599F4 /* WorldNewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldNewsCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC71AD82805997F0001BCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB34EDE05AEF460D6DE2F848 /* Pods_Recent_News.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5191DD39A368409C7F8E9647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB41B5C434E78036EBB4AE7 /* Pods_Recent_News.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55FC645FE8DAD693588E6C40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74A95459D1C1C5EC9DEEEE4B /* Pods-Recent News.debug.xcconfig */,
+				284060FBEF2B2C152FE13157 /* Pods-Recent News.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC8052A1284006A600A24DD0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				DC8F584E282435D5009FB06C /* ShadowButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		DC80DC54284CF33F005BC794 /* ControllersToCut */ = {
+			isa = PBXGroup;
+			children = (
+				DC8F584A2823CEAE009FB06C /* BusinessNewsViewController.swift */,
+				DCCF805E282972CD000B39B7 /* BusinessCollectionViewCell.swift */,
+				DCCF806028297322000B39B7 /* BusinessTableViewCell.swift */,
+				DC8F584C2823CECB009FB06C /* HealthNewsViewController.swift */,
+				DCCF8056282855CC000B39B7 /* HealthTableViewCell.swift */,
+				DCE38F12280D61C0006599F4 /* SportNewsViewController.swift */,
+				DC8F585028251792009FB06C /* SportNewsTableViewCell.swift */,
+				DC1EF35F28257DDE00816AE7 /* SportNewsCollectionViewCellHorizontal.swift */,
+				DC2305352826D73700E9445E /* SportNewsCollectionViewCellVertical.swift */,
+				DCE38F14280D6920006599F4 /* TechNews */,
+			);
+			path = ControllersToCut;
+			sourceTree = "<group>";
+		};
+		DC80DC84284E6DB2005BC794 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DC80DC8B284EA3DB005BC794 /* ForecastData+CoreDataClass.swift */,
+				DC80DC8A284EA3DB005BC794 /* ForecastData+CoreDataProperties.swift */,
+				DC80DC85284E881A005BC794 /* CoreDataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		DCAD10322845A2B0006CD0D1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DCE38F18280D69F1006599F4 /* WorldNewsCollectionViewCell.swift */,
+				DC2BE951280993A600BEE0BE /* WorldNewsTableViewCell.swift */,
+				DC0ACFD92826665500E8A826 /* LiveScoreCell.swift */,
+				DCAD10362845A9F7006CD0D1 /* LiveNewsCollectionViewCell.swift */,
+				DC80DC55284CF5C2005BC794 /* ForecastTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DCC71AD22805997F0001BCA1 = {
+			isa = PBXGroup;
+			children = (
+				DCC71ADD2805997F0001BCA1 /* Recent News */,
+				DCC71ADC2805997F0001BCA1 /* Products */,
+				55FC645FE8DAD693588E6C40 /* Pods */,
+				5191DD39A368409C7F8E9647 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC71ADC2805997F0001BCA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC71ADB2805997F0001BCA1 /* Recent News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC71ADD2805997F0001BCA1 /* Recent News */ = {
+			isa = PBXGroup;
+			children = (
+				DCC71AE7280599810001BCA1 /* Assets.xcassets */,
+				DCC71AEC280599810001BCA1 /* Info.plist */,
+				DCC71AF2280599AE0001BCA1 /* Model */,
+				DCC71AF3280599C70001BCA1 /* View */,
+				DCC71AF4280599E40001BCA1 /* Controller */,
+			);
+			path = "Recent News";
+			sourceTree = "<group>";
+		};
+		DCC71AF2280599AE0001BCA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCC71AF72805A0AD0001BCA1 /* WorldNews.swift */,
+				DC718366281E6F9400C5CB15 /* WorldNewsTableView.swift */,
+				DCAD103828462415006CD0D1 /* LiveNews.swift */,
+				DCCF8062282ADFD1000B39B7 /* BusinessNews.swift */,
+				DCCF805828285E08000B39B7 /* HealthNews.swift */,
+				DC8F58522825208E009FB06C /* SportNewsTableView.swift */,
+				DC1EF36128258D7600816AE7 /* SportNewsCollectionViewHorizontal.swift */,
+				DC2305372826DEE400E9445E /* SportNewsCollectionViewVertical.swift */,
+				DCC71AF52805A0910001BCA1 /* TechNews.swift */,
+				DCCF80542827DBBB000B39B7 /* VideoGallery.swift */,
+				DCC71AF92805A0CB0001BCA1 /* Entertainment.swift */,
+				DCC71AFB2805A0FC0001BCA1 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCC71AF3280599C70001BCA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC8052A1284006A600A24DD0 /* CustomViews */,
+				DCC71AE42805997F0001BCA1 /* Main.storyboard */,
+				DC824E51285DD37C00959F19 /* GameAlertStoryboard.storyboard */,
+				DCC71AE9280599810001BCA1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCC71AF4280599E40001BCA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCC71AE02805997F0001BCA1 /* SceneDelegate.swift */,
+				DCC71ADE2805997F0001BCA1 /* AppDelegate.swift */,
+				DC80DC88284E88BF005BC794 /* PersistenceService.swift */,
+				DC824E4F285DD29600959F19 /* GameRulesService.swift */,
+				DCE38F15280D693A006599F4 /* News */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCE38F14280D6920006599F4 /* TechNews */ = {
+			isa = PBXGroup;
+			children = (
+				DCC71AE22805997F0001BCA1 /* TechViewController.swift */,
+				DC497BFD280713A000132139 /* SecondScreenTechNewsVC.swift */,
+				DCC71B032805A2E60001BCA1 /* TechNewsTableViewCell.swift */,
+			);
+			path = TechNews;
+			sourceTree = "<group>";
+		};
+		DCE38F15280D693A006599F4 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				DCC71AFD2805A13E0001BCA1 /* WorldNewsViewController.swift */,
+				DC9666EF2846D35E008839E0 /* ArticleDetailsViewController.swift */,
+				DCABF73E2844DCB000BB8436 /* LiveNewsViewController.swift */,
+				DC0ACFD7282665B400E8A826 /* LiveScoreViewController.swift */,
+				DC2305332826B45C00E9445E /* VideoGalleryViewController.swift */,
+				DCAD10322845A2B0006CD0D1 /* Cells */,
+				DCE38F16280D6985006599F4 /* Entertainment */,
+				DCE38F17280D69A4006599F4 /* Forecast */,
+				DC80DC54284CF33F005BC794 /* ControllersToCut */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		DCE38F16280D6985006599F4 /* Entertainment */ = {
+			isa = PBXGroup;
+			children = (
+				DCC71AFF2805A1550001BCA1 /* EntertainmentViewController.swift */,
+				DC824E4D285CF59700959F19 /* GameRulesAlertViewController.swift */,
+			);
+			path = Entertainment;
+			sourceTree = "<group>";
+		};
+		DCE38F17280D69A4006599F4 /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				DCC71B012805A16F0001BCA1 /* ForecastViewController.swift */,
+				DC80DC84284E6DB2005BC794 /* CoreData */,
+			);
+			path = Forecast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC71ADA2805997F0001BCA1 /* Recent News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC71AEF280599810001BCA1 /* Build configuration list for PBXNativeTarget "Recent News" */;
+			buildPhases = (
+				3C5E4E032D5F825DD3D67826 /* [CP] Check Pods Manifest.lock */,
+				DCC71AD72805997F0001BCA1 /* Sources */,
+				DCC71AD82805997F0001BCA1 /* Frameworks */,
+				DCC71AD92805997F0001BCA1 /* Resources */,
+				2171509C4B60027BAB345894 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recent News";
+			productName = "Recent News";
+			productReference = DCC71ADB2805997F0001BCA1 /* Recent News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC71AD32805997F0001BCA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DCC71ADA2805997F0001BCA1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = DCC71AD62805997F0001BCA1 /* Build configuration list for PBXProject "Recent News" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC71AD22805997F0001BCA1;
+			productRefGroup = DCC71ADC2805997F0001BCA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC71ADA2805997F0001BCA1 /* Recent News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC71AD92805997F0001BCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC824E52285DD37C00959F19 /* GameAlertStoryboard.storyboard in Resources */,
+				DCC71AEB280599810001BCA1 /* LaunchScreen.storyboard in Resources */,
+				DCC71AE8280599810001BCA1 /* Assets.xcassets in Resources */,
+				DCC71AE62805997F0001BCA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2171509C4B60027BAB345894 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Recent News/Pods-Recent News-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Recent News/Pods-Recent News-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Recent News/Pods-Recent News-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C5E4E032D5F825DD3D67826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Recent News-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC71AD72805997F0001BCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0ACFDA2826665500E8A826 /* LiveScoreCell.swift in Sources */,
+				DCC71B042805A2E60001BCA1 /* TechNewsTableViewCell.swift in Sources */,
+				DCAD103928462415006CD0D1 /* LiveNews.swift in Sources */,
+				DCC71AFC2805A0FC0001BCA1 /* Forecast.swift in Sources */,
+				DC718367281E6F9400C5CB15 /* WorldNewsTableView.swift in Sources */,
+				DC0ACFD8282665B400E8A826 /* LiveScoreViewController.swift in Sources */,
+				DCCF805928285E08000B39B7 /* HealthNews.swift in Sources */,
+				DC80DC89284E88BF005BC794 /* PersistenceService.swift in Sources */,
+				DC80DC8D284EA3DB005BC794 /* ForecastData+CoreDataClass.swift in Sources */,
+				DCC71B002805A1550001BCA1 /* EntertainmentViewController.swift in Sources */,
+				DC2BE952280993A600BEE0BE /* WorldNewsTableViewCell.swift in Sources */,
+				DCE38F13280D61C1006599F4 /* SportNewsViewController.swift in Sources */,
+				DCC71AF62805A0910001BCA1 /* TechNews.swift in Sources */,
+				DC8F585128251792009FB06C /* SportNewsTableViewCell.swift in Sources */,
+				DC80DC87284E881A005BC794 /* CoreDataModel.xcdatamodeld in Sources */,
+				DC8F584D2823CECB009FB06C /* HealthNewsViewController.swift in Sources */,
+				DCCF8057282855CC000B39B7 /* HealthTableViewCell.swift in Sources */,
+				DCC71AF82805A0AD0001BCA1 /* WorldNews.swift in Sources */,
+				DC2305362826D73700E9445E /* SportNewsCollectionViewCellVertical.swift in Sources */,
+				DC80DC56284CF5C2005BC794 /* ForecastTableViewCell.swift in Sources */,
+				DCE38F19280D69F1006599F4 /* WorldNewsCollectionViewCell.swift in Sources */,
+				DCC71AE32805997F0001BCA1 /* TechViewController.swift in Sources */,
+				DC1EF36028257DDE00816AE7 /* SportNewsCollectionViewCellHorizontal.swift in Sources */,
+				DC8F584B2823CEAE009FB06C /* BusinessNewsViewController.swift in Sources */,
+				DCCF80552827DBBB000B39B7 /* VideoGallery.swift in Sources */,
+				DCC71AFE2805A13E0001BCA1 /* WorldNewsViewController.swift in Sources */,
+				DC497BFE280713A100132139 /* SecondScreenTechNewsVC.swift in Sources */,
+				DC2305342826B45C00E9445E /* VideoGalleryViewController.swift in Sources */,
+				DCCF806128297322000B39B7 /* BusinessTableViewCell.swift in Sources */,
+				DC1EF36228258D7600816AE7 /* SportNewsCollectionViewHorizontal.swift in Sources */,
+				DC2305382826DEE400E9445E /* SportNewsCollectionViewVertical.swift in Sources */,
+				DCABF73F2844DCB000BB8436 /* LiveNewsViewController.swift in Sources */,
+				DC824E4E285CF59700959F19 /* GameRulesAlertViewController.swift in Sources */,
+				DC9666F02846D35F008839E0 /* ArticleDetailsViewController.swift in Sources */,
+				DC824E50285DD29600959F19 /* GameRulesService.swift in Sources */,
+				DC8F58532825208E009FB06C /* SportNewsTableView.swift in Sources */,
+				DCAD10372845A9F7006CD0D1 /* LiveNewsCollectionViewCell.swift in Sources */,
+				DC8F584F282435D5009FB06C /* ShadowButton.swift in Sources */,
+				DCC71AFA2805A0CB0001BCA1 /* Entertainment.swift in Sources */,
+				DC80DC8C284EA3DB005BC794 /* ForecastData+CoreDataProperties.swift in Sources */,
+				DCCF805F282972CD000B39B7 /* BusinessCollectionViewCell.swift in Sources */,
+				DCC71B022805A16F0001BCA1 /* ForecastViewController.swift in Sources */,
+				DCCF8063282ADFD1000B39B7 /* BusinessNews.swift in Sources */,
+				DCC71ADF2805997F0001BCA1 /* AppDelegate.swift in Sources */,
+				DCC71AE12805997F0001BCA1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCC71AE42805997F0001BCA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC71AE52805997F0001BCA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC71AE9280599810001BCA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC71AEA280599810001BCA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC71AED280599810001BCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCC71AEE280599810001BCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC71AF0280599810001BCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A95459D1C1C5EC9DEEEE4B /* Pods-Recent News.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF65J9646S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recent News/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.filipnesic.Recent-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC71AF1280599810001BCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284060FBEF2B2C152FE13157 /* Pods-Recent News.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XF65J9646S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recent News/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.filipnesic.Recent-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC71AD62805997F0001BCA1 /* Build configuration list for PBXProject "Recent News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC71AED280599810001BCA1 /* Debug */,
+				DCC71AEE280599810001BCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC71AEF280599810001BCA1 /* Build configuration list for PBXNativeTarget "Recent News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC71AF0280599810001BCA1 /* Debug */,
+				DCC71AF1280599810001BCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC80DC85284E881A005BC794 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC80DC86284E881A005BC794 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = DC80DC86284E881A005BC794 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCC71AD32805997F0001BCA1 /* Project object */;
+}

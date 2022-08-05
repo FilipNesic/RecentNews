@@ -1,0 +1,12 @@
+
+platform :ios, '10.0'
+
+target 'Recent News' do
+  
+  use_frameworks!
+
+pod 'youtube-ios-player-helper', '~> 1.0.4'
+
+pod 'CachyKit'
+
+end
