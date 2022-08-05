@@ -5,5 +5,5 @@ Recent News app collect articles from a large pool of sources, and incorporate d
 
 - Read your favourite articles 📰
 - You can track live scores and watch match highlights ⚽️
-- Play one of the most addictive games “True-False quiz” 🎲
+- Play one of the most addictive games “True-False Quiz” 🎲
 - Search and save weather information about your favourite cities🌦
