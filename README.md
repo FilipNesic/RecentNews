@@ -1,1 +1,1 @@
-# RecentNews
+# RecentNews 🗞
