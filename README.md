@@ -25,3 +25,8 @@ Open the workspace file and you are ready to go.
 ![rsz_logo](https://user-images.githubusercontent.com/110664188/183242722-cf0d47c3-3611-4f86-afe9-a211b41fe19f.png)
 
 UIKit framework, MVC pattern, Xcode IDE
+
+# Screenshoots
+
+<img width="687" alt="Screenshot 2022-08-06 at 11 36 17" src="https://user-images.githubusercontent.com/110664188/183243543-1b00496e-a8df-43fc-b1e1-9149aadf765a.png">
+
