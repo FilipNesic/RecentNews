@@ -1,6 +1,6 @@
 # RecentNews 🗞
 
-<img width="1027" alt="Screenshot 2022-08-06 at 10 20 50" src="https://user-images.githubusercontent.com/110664188/183241030-8cda8df2-61c3-4bde-9f1b-1484abb62981.png"> 
+<img width="1010" alt="Screenshot 2022-08-06 at 12 40 34" src="https://user-images.githubusercontent.com/110664188/183245513-e06bcd92-cd08-4126-b6cf-5ff6a1f5d9ec.png">
 
 Recent News app written in Swift 5 using the NEWS API and demonstrating Clean Architecture, Dependency Injection, MVC software architectural pattern.
 
