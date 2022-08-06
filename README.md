@@ -34,5 +34,6 @@ UIKit framework, MVC pattern, Xcode IDE
 
 <img width="602" alt="Screenshot 2022-08-06 at 11 59 18" src="https://user-images.githubusercontent.com/110664188/183244136-4d4fd7a7-fd72-47f4-809f-734fea9dbb62.png">
 
+<img width="590" alt="Screenshot 2022-08-06 at 12 05 05" src="https://user-images.githubusercontent.com/110664188/183244324-96a1ba60-c918-450c-ba35-b2e38fee5aa7.png">
 
 
