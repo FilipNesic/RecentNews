@@ -42,3 +42,7 @@ UIKit framework, MVC pattern, Xcode IDE
 
 ### Weather
 <img width="469" alt="Screenshot 2022-08-06 at 12 14 47" src="https://user-images.githubusercontent.com/110664188/183244653-3cfc2c1b-78c8-422b-a77c-fc92ee8783ae.png">
+
+## Author
+
+Filip Nesic, filip.nesic.developer@gmail.com
