@@ -9,7 +9,7 @@ This app collect articles from a large pool of sources, and incorporate differen
 - Read your favourite articles 📰
 - Watch live online news 📺
 - You can track live scores and watch match highlights ⚽️
-- Play one of the most addictive games “True-False Quiz” 🎲
+- Play one of the most addictive game “True-False Quiz” 🎲
 - Search, save or remove saved weather information about your favourite cities 🌦
 
 # Getting started
