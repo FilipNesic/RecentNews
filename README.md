@@ -18,4 +18,5 @@ Open the workspace file and you are ready to go.
 
 # Languages and Tools :
 
-![rsz_swift-og](https://user-images.githubusercontent.com/110664188/183241987-af857b7e-1640-4317-9c8d-4c2ba867b8cd.png)
+![rsz_1swift-og](https://user-images.githubusercontent.com/110664188/183242032-e9c23d7a-61b2-4f3d-bffe-2aac3491e141.png)
+
