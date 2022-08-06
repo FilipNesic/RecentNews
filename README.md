@@ -4,7 +4,7 @@
 
 Recent News app written in Swift 5 using the NEWS API and demonstrating Clean Architecture, Dependency Injection, MVC software architectural pattern.
 
-This app collect articles from a large pool of sources, and incorporate different types of reporting, so instead of getting stories and articles just from one source or a local news station, you'll get a good mix of various topics of sports, weather, games, politics or health news.
+This app collect articles from a large pool of sources, and incorporate different types of reporting, so instead of getting stories and articles just from one source or a local news station, you'll get a good mix of various topics of sports, weather, games, politics and health news.
 
 - Read your favourite articles 📰
 - Watch live online news 📺
