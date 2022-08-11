@@ -24,7 +24,7 @@ Open the workspace file and you are ready to go.
 ![rsz_imgbin-core-data-software-framework-database-apple-gwb5p8rfguykqcyuxed6qdgdj](https://user-images.githubusercontent.com/110664188/183242670-5883bf89-38f4-419f-87fd-11687159794c.jpg)
 ![rsz_logo](https://user-images.githubusercontent.com/110664188/183242722-cf0d47c3-3611-4f86-afe9-a211b41fe19f.png)
 
-UIKit framework, MVC pattern, Xcode IDE
+UIKit framework, MVC pattern, Xcode IDE, Core Data, CocoaPods...
 
 # Screenshoots
 
